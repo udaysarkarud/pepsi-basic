@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header class="container-fluid cust-bg text-white">
+    <header id="hero-area" class="container-fluid cust-bg text-white">
         <section class="container">
             <nav class="navbar navbar-expand-lg navbar-dark cust-nv-bg">
                 <div class="container-fluid">
@@ -49,8 +49,8 @@
             </nav>
             <section class="hero-section py-5">
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-12 col-lg-6">
-                        <article>
+                    <div class="col-12 col-lg-6 order-last order-lg-first">
+                        <article class="text-center text-lg-start">
                             <h1>THAT'S WHAT</h1>
                             <span>I LIKE</span>
                             <p class="fs-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis eius
@@ -60,8 +60,8 @@
                             <button class="btn btn-outline-light">View Others</button>
                         </article>
                     </div>
-                    <div class="col-10 col-lg-4">
-                        <img width="200" class="img-fluid float-end" src="/images/pepsi-black.png" alt="">
+                    <div class="col-10 col-lg-4 text-center text-lg-end">
+                        <img id="big-pepsi" width="200" class="img-fluid" src="/images/pepsi-black.png" alt="">
                     </div>
                     <div class="col-2 col-lg-2 text-center">
                         <i class="d-block fs-2 bi bi-github"></i>
@@ -70,11 +70,11 @@
                     </div>
                 </div>
             </section>
-            <section class="slect-cans text-center py-5">
-                <img width="60" class="img-fluid px-2" src="./images/pepsi-black.png" alt="">
-                <img width="60" class="img-fluid px-2" src="./images/pepsi-blue.png" alt="">
-                <img width="60" class="img-fluid px-2" src="./images/pepsi-gold.png" alt="">
-                <img width="60" class="img-fluid px-2" src="./images/pepsi-white.png" alt="">
+            <section class="slect-cans text-center pb-5">
+                <img id="pepsi-black" width="60" class="img-fluid px-2 img-up" src="./images/pepsi-black.png" alt="">
+                <img id="pepsi-blue" width="60" class="img-fluid px-2 img-up" src="./images/pepsi-blue.png" alt="">
+                <img id="pepsi-gold" width="60" class="img-fluid px-2 img-up" src="./images/pepsi-gold.png" alt="">
+                <img id="pepsi-white" width="60" class="img-fluid px-2 img-up" src="./images/pepsi-white.png" alt="">
             </section>
         </section>
     </header>
@@ -82,6 +82,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
 </body>
 
 </html>
