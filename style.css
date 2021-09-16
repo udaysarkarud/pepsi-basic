@@ -3,7 +3,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .cust-bg{
-    background-color: blueviolet;
+    background-color: #000000;
+    transition: background-color 0.5s;
 }
 
 .cust-nv-bg{
@@ -28,7 +29,14 @@ article span{
 .slect-cans img{
 
 }
-
+.img-up{
+    cursor: pointer;
+    margin-top: 0px;
+    transition: margin-top 0.5s;
+}
+.img-up:hover{
+    margin-top: -50px;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     article{
