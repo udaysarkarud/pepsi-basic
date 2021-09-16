@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.cust-bg{
+    background-color: blueviolet;
+}
+
+.cust-nv-bg{
+    background: transparent;
+}
+
+.cust-nv-bg a{
+    color: white;
+}
+
+article h1{
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: -50px;
+}
+
+article span{
+    font-size: 8rem;
+    font-weight: 900;
+}
+
+.slect-cans img{
+
+}
