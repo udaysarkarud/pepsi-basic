@@ -10,7 +10,13 @@ body{
 .cust-nv-bg{
     background: transparent;
 }
+#logo{
 
+    transition: transform 0.5s;
+}
+/* #logo:hover{
+    transform: rotate(360deg);
+} */
 .cust-nv-bg a{
     color: white;
 }
@@ -33,6 +39,7 @@ article span{
     cursor: pointer;
     margin-top: 0px;
     transition: margin-top 0.5s;
+    transform: rotate(15deg);
 }
 .img-up:hover{
     margin-top: -50px;
